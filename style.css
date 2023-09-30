@@ -121,7 +121,7 @@ body {
 } 
 .header-link:hover, 
 .header-link:focus{ 
-    color: white; 
+    color: rgb(7, 159, 108); 
 } 
 .main-container{ 
     padding-top: 80px; 
@@ -132,3 +132,49 @@ body {
     padding-top: 15px; 
     padding-bottom: 15px; 
 }
+.work{
+    padding-top: 80px ;
+    padding-bottom: 80px;
+}
+.work-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.work-item{
+    border: 5px solid white;
+    padding: 30px;
+    background-color: aquamarine;
+    margin: 20px;
+}
+.work-item:hover,
+.work-item:focus{
+    border: 5px solid antiquewhite;
+}
+.work-ul-nav{
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    width: 700px; 
+}
+.work-logo{
+    text-decoration: none; 
+    font-size: 50px; 
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(179, 135, 250); 
+    padding: 5px 12px; 
+    border-radius: 10px; 
+    font-weight: 700; 
+    color: black; 
+}
+.work-ul-nav2{
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    width: 700px;
+}
+
+  
