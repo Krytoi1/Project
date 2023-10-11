@@ -50,7 +50,8 @@ body {
     padding: 5px 12px;  
     border-radius: 10px;  
     font-weight: 700;  
-    color: black;  
+    color: black;
+    box-shadow: 10px 5px 5px gray;
 }  
   
 .index-logo2 {  
@@ -60,7 +61,8 @@ body {
     justify-content: center;  
     background-color: rgb(11, 202, 148);  
     width: 280px;  
-    border-radius: 10px;  
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
 }  
   
 .ul-nav2 {  
