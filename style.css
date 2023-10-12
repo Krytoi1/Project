@@ -18,7 +18,8 @@ header{
     display: block;  
     margin: 0 auto;  
     border-radius: 20px;  
-    margin-bottom: 50px;  
+    margin-bottom: 50px;
+    width: 650px;  
 }  
   
 a {  
@@ -41,7 +42,7 @@ body {
     background-color: rgb(0, 191, 255);  
 }  
   
-.index-logo {  
+.index-logo{  
     text-decoration: none;  
     font-size: 50px;  
     display: flex;  
@@ -62,7 +63,7 @@ body {
     background-color: rgb(11, 202, 148);  
     width: 280px;  
     border-radius: 10px;
-    box-shadow: 10px 5px 5px gray;
+    box-shadow: 10px 5px 5px gray;  
 }  
   
 .ul-nav2 {  
@@ -119,12 +120,21 @@ body {
 .header-link{  
     font-size: 24px;  
     font-weight: 700;  
-    color: black;  
-}  
-.header-link:hover,  
-.header-link:focus{  
-    color: rgb(7, 159, 108);  
-}  
+    color: black;
+    position: relative;
+}
+  
+.header-link:hover{ 
+    color: rgb(71, 13, 219) ;
+}
+
+.ul-nav li {
+ margin-right: 15px;
+}
+.ul-nav li:last-of-type{
+    margin-left: 0px;
+}
+
 .main-container{  
     padding-top: 80px;  
     padding-bottom: 80px;  
@@ -215,3 +225,6 @@ body {
 .contacts-item{
     margin-bottom: 15px;
 }
+  
+
+    
